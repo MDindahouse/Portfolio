@@ -22,7 +22,7 @@ function init() {
 		mainContainer.style.display = "block";
 		setTimeout(() => mainContainer.style.opacity = 1, 50);
 
-	}, 3000);
+	}, 4500);
 }
 
 init();
