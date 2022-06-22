@@ -126,7 +126,15 @@ h6 { font-size: 16px;}
 
 /* Back to top */
 .back-to-top {
-	font-size: 20px;
+	background-color: #808080;
+	border: 2px solid #FF9E9E;
+	border-radius: 3px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 18px;
+	width: 28px;
+	height: 28px;
 	position: fixed;
 	right: 10px;
 	bottom: 50px;
@@ -136,7 +144,7 @@ h6 { font-size: 16px;}
 }
 
 .back-to-top.active {
-	bottom: 21.5px;
+	bottom: 10px;
 	pointer-events: auto;
 	opacity:1;
 }
